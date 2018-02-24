@@ -16,6 +16,10 @@ Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 call plug#end()
 
+
+"*****************************************************************************
+"" Basic configuration
+"*****************************************************************************
 colorscheme gruvbox
 set background=dark
 

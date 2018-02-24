@@ -51,6 +51,10 @@ nnoremap <c-p> :Files<cr>
 """"""" Show all of occurrence of a word from root dir
 nnoremap <c-f> :Ag<space>
 
+
+"*****************************************************************************
+"" UltiSnips configuration
+"*****************************************************************************
 """"""" Define vertical layout to show the snippets
 let g:UltiSnipsEditSplit="vertical"
 

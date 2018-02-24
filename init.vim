@@ -45,6 +45,9 @@ set expandtab
 """"""" Define  a key leader
 let mapleader=","
 
+set title
+set titleold="WTF Where this file?"
+set titlestring=%F
 
 "*****************************************************************************
 "" Some shortcuts

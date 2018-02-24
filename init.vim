@@ -28,6 +28,7 @@ set mouse=a
 set inccommand=split
 set clipboard=unnamed
 
+""""""" Replace tab character by space character
 set expandtab
 
 """"""" Define  a key leader

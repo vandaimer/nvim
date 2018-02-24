@@ -11,6 +11,7 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'tpope/vim-commentary'
 Plug 'airblade/vim-gitgutter'
+Plug 'editorconfig/editorconfig-vim'
 call plug#end()
 
 colorscheme gruvbox

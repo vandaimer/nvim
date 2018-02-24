@@ -10,6 +10,7 @@ Plug 'cohama/lexima.vim'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'tpope/vim-commentary'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 colorscheme gruvbox

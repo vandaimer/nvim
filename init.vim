@@ -90,6 +90,9 @@ nnoremap <leader>. :lcd %:p:h<CR>
 vmap < <gv
 vmap > >gv
 
+"" Clean search (highlight)
+nnoremap <silent> <leader><space> :noh<cr>
+
 "*****************************************************************************
 "" UltiSnips configuration
 "*****************************************************************************

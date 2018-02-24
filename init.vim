@@ -9,6 +9,7 @@ Plug 'w0rp/ale'
 Plug 'cohama/lexima.vim'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'tpope/vim-commentary'
 call plug#end()
 
 colorscheme gruvbox

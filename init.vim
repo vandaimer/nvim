@@ -34,7 +34,9 @@ set expandtab
 """"""" Define  a key leader
 let mapleader=","
 
+""""""" Add ; character at end of the line
 nnoremap <leader>; A;<esc>
+
 """"""" On NVIM context, $MYVIMRC exists with locations this file
 nnoremap <leader>sv :source $MYVIMRC<cr>
 

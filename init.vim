@@ -86,6 +86,10 @@ nnoremap <c-f> :Ag<space>
 "" Set working directory
 nnoremap <leader>. :lcd %:p:h<CR>
 
+"" Vmap for maintain Visual Mode after shifting > and <
+vmap < <gv
+vmap > >gv
+
 "*****************************************************************************
 "" UltiSnips configuration
 "*****************************************************************************

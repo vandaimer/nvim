@@ -83,6 +83,8 @@ nnoremap <c-p> :Files<cr>
 """"""" Show all of occurrence of a word from root dir
 nnoremap <c-f> :Ag<space>
 
+"" Set working directory
+nnoremap <leader>. :lcd %:p:h<CR>
 
 "*****************************************************************************
 "" UltiSnips configuration

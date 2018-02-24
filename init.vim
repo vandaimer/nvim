@@ -49,6 +49,8 @@ set title
 set titleold="WTF Where this file?"
 set titlestring=%F
 
+set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)\
+
 "*****************************************************************************
 "" Some shortcuts
 "*****************************************************************************

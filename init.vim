@@ -43,6 +43,10 @@ set expandtab
 """"""" Define  a key leader
 let mapleader=","
 
+
+"*****************************************************************************
+"" Some shortcuts
+"*****************************************************************************
 """"""" Add ; character at end of the line
 nnoremap <leader>; A;<esc>
 

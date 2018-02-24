@@ -21,6 +21,7 @@ set number
 set relativenumber
 set termguicolors
 
+""""""" Enable mouse with "a" options ("a" like a "all")
 set mouse=a
 
 """"""" Show the change during run :%s; for exemple

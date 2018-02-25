@@ -16,6 +16,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'Chiel92/vim-autoformat'
 call plug#end()
 
 
@@ -92,6 +93,13 @@ vmap > >gv
 
 "" Clean search (highlight)
 nnoremap <silent> <leader><space> :noh<cr>
+
+
+"*****************************************************************************
+"" Autoformat configuration
+"*****************************************************************************
+noremap == :Autoformat<CR>
+
 
 "*****************************************************************************
 "" UltiSnips configuration

@@ -79,7 +79,7 @@ nnoremap <leader>; A;<esc>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
 """"""" Show a list of files from root dir
-nnoremap <c-p> :GFiles<cr>
+nnoremap <c-p> :tabe<CR>:Files<cr>
 
 """"""" Show all of occurrence of a word from root dir
 nnoremap <c-f> :Ag<space>

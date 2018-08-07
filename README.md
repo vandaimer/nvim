@@ -11,7 +11,8 @@ As I already had my `.vimrc`, I get the suggestions in the video, and append the
 - Install the `neovim` package for python3, because has a plugin dependency it. `sudo pip3 install neovim`
 - Install the `the_silver_searcher` package in your S.O, because has a plugin dependency it. `sudo pacman -S the_silver_searcher`
 - Create the `~/.config/nvim` directory on your home. `mkdir ~/.config/nvim -m`.
-- You should download the `init.vim` file and put in `~/.config/nvim` directory.
+- You need download the `init.vim` file and put in `~/.config/nvim` directory.
+- You need install the `vim-plug` package before. So, run this command `curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim` or check out [here](https://github.com/junegunn/vim-plug) how you need do it.
 - Run NeoVim. Use `nvim` command.
 - Now you need install all the plugins, type `:PlugInstall` and type `Enter`.
 - After that, you need close the NeoVim and open again.

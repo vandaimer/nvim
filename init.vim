@@ -27,6 +27,7 @@ call plug#end()
 "*****************************************************************************
 colorscheme gruvbox
 set background=dark
+set cursorline
 
 """"""" Allow has a buffers
 set hidden
@@ -104,6 +105,7 @@ nnoremap <silent> <leader><space> :noh<cr>
 "" Autoformat configuration
 "*****************************************************************************
 noremap == :Autoformat<CR>
+let g:autoformat_verbosemode=1
 
 
 "*****************************************************************************

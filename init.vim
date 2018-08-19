@@ -86,6 +86,9 @@ nnoremap <c-p> :tabe<CR>:Files<cr>
 """"""" Show all of occurrence of a word from root dir
 nnoremap <c-f> :Ag<space>
 
+""""""" Close the current tab
+nnoremap <c-d> :x<cr>
+
 "" Set working directory
 nnoremap <leader>. :lcd %:p:h<CR>
 

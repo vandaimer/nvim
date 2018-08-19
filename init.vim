@@ -17,6 +17,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'Chiel92/vim-autoformat'
 Plug 'easymotion/vim-easymotion'
+Plug 'haya14busa/incsearch.vim'
+Plug 'haya14busa/incsearch-fuzzy.vim'
 call plug#end()
 
 
@@ -151,3 +153,20 @@ let g:airline#extensions#virtualenv#enabled = 1
 "" Configure easymotion/vim-easymotion
 "*****************************************************************************
 "" Learn about and improve it
+
+
+"*****************************************************************************
+"" Configure haya14busa/incsearch-fuzzy.vim
+"*****************************************************************************
+function! s:config_fuzzyall(...) abort
+  return extend(copy({
+  \   'converters': [
+  \     incsearch#config#fuzzy#converter(),
+  \     incsearch#config#fuzzyspell#converter()
+  \   ],
+  \ }), get(a:, 1, {}))
+endfunction
+
+noremap <silent><expr> <leader>/ incsearch#go(<SID>config_fuzzyall())
+noremap <silent><expr> <leader>? incsearch#go(<SID>config_fuzzyall({'command': '?'}))
+noremap <silent><expr> zg? incsearch#go(<SID>config_fuzzyall({'is_stay': 1}))

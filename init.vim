@@ -1,7 +1,6 @@
 call plug#begin()
 Plug 'morhetz/gruvbox'
 Plug 'terryma/vim-multiple-cursors'
-Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'w0rp/ale'
@@ -19,6 +18,8 @@ Plug 'Chiel92/vim-autoformat'
 Plug 'easymotion/vim-easymotion'
 Plug 'haya14busa/incsearch.vim'
 Plug 'haya14busa/incsearch-fuzzy.vim'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 
@@ -175,3 +176,11 @@ endfunction
 noremap <silent><expr> <leader>/ incsearch#go(<SID>config_fuzzyall())
 noremap <silent><expr> <leader>? incsearch#go(<SID>config_fuzzyall({'command': '?'}))
 noremap <silent><expr> zg? incsearch#go(<SID>config_fuzzyall({'is_stay': 1}))
+
+
+"*****************************************************************************
+"" Configure fatih/vim-go
+"*****************************************************************************
+
+let g:go_fmt_command = "goimports"
+let g:go_fmt_autosave = 1
